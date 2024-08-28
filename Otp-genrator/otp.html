@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="otp.css
+  ">
+  <title>Otp-genrator</title>
+  
+  
+  
+</head>
+<body>
+ <div class="container st-1">
+    <h2>OTP Verification</h2>
+    <br>
+<h4>Enter the email address</h4>
+<br>
+<p>you will receive an email with a one-time password </p>
+<div class="form-group">
+  <input type="email"class="emailAddress"placeholder="    Email Address" onkeyup="validEmail(this.value)"/>
+</div>
+<button class="nextButton">Next &rarr;</button>
+  </div>
+
+  <div class="container st-2">
+    <h2>OTP Verification</h2>
+    <br>
+<h4>One-time-password</h4>
+
+<p>A one-time password has been sent to<span id=" verifyEmail"></span> </p>
+<div class="otp-form">
+  <p>Enter the 4 digit code we sent you via email to continue</p>
+</div>
+<div class="otp-group">
+  <input type="number" >
+  <input type="number" >
+  <input type="number" >
+  <input type="number" >
+</div>
+<p>
+  Not your email? / Didn't receive the code?
+  <a href="javascript:void(0)" onclick="changeMyEmail()">Try Again</a>
+
+</p>
+<button class="verifyButton">verify &rarr;</button>
+  </div>
+
+
+  <div class="container st-3">
+    <h2>Congratulation</h2>
+    <p> Welcome to home page</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/7518/7518748.png" alt="successfully-img">
+    <h2>Thank you</h2>
+    <p> Your OTP Verification has been completed succesfully</p>
+    <script src="otp.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+ 
+   
+</body>
+</html>
