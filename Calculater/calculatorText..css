@@ -1,0 +1,51 @@
+.text-center{
+  text-align: center;
+}
+.bg-red{
+  background-color: red;
+  
+}
+.mx-auto{
+  margin: auto;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  background-color: rgb(65, 58, 58);
+  border-radius: 4%;
+  flex-direction: column;
+  padding: 62px;
+  margin: 137px 735px;
+   
+}
+.button{
+  background-color: rgb(33, 33, 33);
+  color: white;
+  margin: 0 3px;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: none;
+  border:2px solid black;
+  font-size: medium;
+  width: 61px;
+  
+  
+}
+.button:hover{
+  background-color: rgb(191, 179, 163);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.row input{
+  font-size: 20px;
+ margin: 0;
+ padding: 10px 38px;
+ border: 2px solid black;
+ border-radius: 5px;
+background-color: rgb(243, 208, 162);
+border: solid black;
+}

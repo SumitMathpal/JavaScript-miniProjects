@@ -1,0 +1,11 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.button{
+  padding: 20px;
+}
+.row{
+margin: 8px 0;
+}
